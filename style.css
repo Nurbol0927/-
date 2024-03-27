@@ -1,0 +1,30 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(253, 253, 253);
+}
+
+table {
+    border-collapse: collapse;
+    width: 40%;
+    text-align: left;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #12b90c;
+}
+
+thead {
+    background-color: #000000;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+th {
+    height: 50px;
+}
